@@ -1,0 +1,44 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c*/
+
+
+#jeopardy {
+  text-shadow:tan;
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+  width: auto;
+  height: auto;
+}
+.spinner-border div{
+  top: 20vh;
+  left: 40vw;
+}
+thead th {
+background-color: #115ff4;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+text-decoration: wavy; border: solid 2px white;  
+border-collapse:separate;
+width: 12em;
+height: 4rem;
+}
+
+.table-body td{
+ height: 9rem;
+  border: solid 2px white;  
+  }
+    /* pieces are div within game table cells: draw as colored circles */
+    /* column-top is table row of clickable areas for each td column */
+  /*Column hover allows blue color to show when mouse is hovering above td*/
+  #thead th:hover {
+    background-color: #115ff4;
+    cursor:grab;
+  }
